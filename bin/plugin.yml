@@ -1,0 +1,10 @@
+name: HelloWorld
+version: 1.0
+author: QureMC
+main: xyz.qurequre.firstplugin.Main
+description: Our first minecraft plugin!
+
+commands:
+  hello:
+   aliases: [hi]
+   description: this is the hello cmd
