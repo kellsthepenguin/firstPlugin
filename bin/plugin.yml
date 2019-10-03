@@ -7,4 +7,7 @@ description: Our first minecraft plugin!
 commands:
   hello:
    aliases: [hi]
-   description: this is the hello cmd
+   description: This Command is Hello Command!
+  cur:
+    aliases: [cu]
+    description: Sending your current Gamemode!
