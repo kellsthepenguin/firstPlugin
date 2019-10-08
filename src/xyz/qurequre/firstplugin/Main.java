@@ -36,6 +36,6 @@ public class Main extends JavaPlugin implements Listener {
 	@EventHandler
 	public void onPlayerQuit(PlayerQuitEvent e) {
 		Player p = e.getPlayer();
-		e.setQuitMessage("§7[§c - ��7]§7 " + p.getName());
+		e.setQuitMessage("§7[§c - §7]§7 " + p.getName());
 	}
 }
