@@ -5,9 +5,6 @@ main: xyz.qurequre.firstplugin.Main
 description: Our first minecraft plugin!
 
 commands:
-  hello:
-   aliases: [hi]
-   description: This Command is Hello Command!
   cur:
     aliases: [cu]
     description: Sending your current Gamemode!
