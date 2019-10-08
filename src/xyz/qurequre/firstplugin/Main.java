@@ -27,15 +27,15 @@ public class Main extends JavaPlugin implements Listener {
 	public void onPlayerJoin(PlayerJoinEvent e) {
 		Player p = e.getPlayer();
 	    if(!e.getPlayer().hasPlayedBefore()) {
-		    e.getPlayer().sendMessage("»õ·Î¿î À¯Àú " + p.getName() + " ´ÔÀÌ Á¢¼ÓÇÏ¼Ì½À´Ï´Ù!");
+		    e.getPlayer().sendMessage("New User " + p.getName() + " has joined!");
 		} else {
-			e.setJoinMessage("¡×7[¡×a + ¡×7]¡×7 " + p.getName());
+			e.setJoinMessage("Â§7[Â§a + Â§7]Â§7 " + p.getName());
 		}
 	}
 	
 	@EventHandler
 	public void onPlayerQuit(PlayerQuitEvent e) {
 		Player p = e.getPlayer();
-		e.setQuitMessage("¡×7[¡×c - ¡×7]¡×7 " + p.getName());
+		e.setQuitMessage("Â§7[Â§c - Â§7]Â§7 " + p.getName());
 	}
 }
