@@ -39,3 +39,4 @@ public class Main extends JavaPlugin implements Listener {
 		e.setQuitMessage("§7[§c - §7]§7 " + p.getName());
 	}
 }
+
