@@ -25,6 +25,7 @@ public class Main extends JavaPlugin implements Listener {
 	
 	@EventHandler
 	public void onPlayerJoin(PlayerJoinEvent e) {
+	    Player p = e.getPlayer();
 	    if(!e.getPlayer().hasPlayedBefore()) {
 		    e.getPlayer().sendMessage("New user " + p.getName() + " has joined!");
 		} else {
