@@ -1,3 +1,4 @@
+# THIS PLUGIN IS DEPRACATED
 # firstPlugin
 Version: `1.13` ( but you can use 1.14. )
 
